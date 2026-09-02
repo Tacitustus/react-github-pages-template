@@ -12,7 +12,8 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
     "type-check": "tsc --noEmit",
     "test": "vitest run",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "setup": "node scripts/setup.cjs"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^7.0.1",

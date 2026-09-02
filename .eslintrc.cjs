@@ -13,6 +13,7 @@ module.exports = {
   ],
   ignorePatterns: [
     'dist',
+    'scripts',
     '.eslintrc.cjs',
     'postcss.config.cjs',
     'tailwind.config.ts',
